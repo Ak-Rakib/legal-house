@@ -1,0 +1,18 @@
+.bg-img {
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-set-middle {
+    padding-top: 110px;
+}
+
+@media screen and (max-width: 724px) {
+    .bg-img{
+        height: 70vh;
+    }
+
+    .banner-set-middle {
+        padding-top: 20px;
+    }
+}
