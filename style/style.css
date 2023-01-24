@@ -7,6 +7,13 @@
     padding-top: 110px;
 }
 
+.position-set {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+}
+
 @media screen and (max-width: 724px) {
     .bg-img{
         height: 70vh;
@@ -14,5 +21,12 @@
 
     .banner-set-middle {
         padding-top: 20px;
+    }
+
+    .position-set {
+        position: absolute;
+        margin: 0;
+        left: 50%;
+        top: 50%;
     }
 }
