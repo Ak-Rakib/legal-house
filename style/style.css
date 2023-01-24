@@ -19,6 +19,10 @@
     border-radius: 50%;
 }
 
+.card-bg-gradient {
+    background: #F3F3F3;
+}
+
 @media screen and (max-width: 724px) {
     .bg-img{
         height: 70vh;
