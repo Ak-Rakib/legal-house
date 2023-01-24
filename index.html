@@ -63,9 +63,55 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <button class="btn btn-outline-success" type="submit">
+              <button
+                class="btn btn-outline-success"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                type="submit"
+              >
                 Free Consultation
               </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Follow This Instruction
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                        <ol>
+                            <li>NID No</li>
+                            <li>Phone No</li>
+                            <li>Photo</li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-success"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -616,9 +662,7 @@
             </p>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <h3 class="fw-bold mb-4 text-light">
-                Useful Link
-            </h3>
+            <h3 class="fw-bold mb-4 text-light">Useful Link</h3>
             <p class="text-light mb-2">Home</p>
             <p class="text-light mb-2">About us</p>
             <p class="text-light mb-2">Cases</p>
@@ -626,34 +670,40 @@
             <p class="text-light mb-2">Contact Us</p>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <h3 class="fw-bold mb-4 text-light">
-                Contact Now
-            </h3>
+            <h3 class="fw-bold mb-4 text-light">Contact Now</h3>
             <address class="text-light mb-3">
-                555 4th 5t NW, Washington
-                DC 20530, United States
+              555 4th 5t NW, Washington DC 20530, United States
             </address>
             <address class="text-light mb-3">
-                +88 01750 000 000 <br>
-                +88 01750 000 000
+              +88 01750 000 000 <br />
+              +88 01750 000 000
             </address>
             <address class="text-light mb-3">
-                info@gmail.com <br>
-                info@gmail.com
+              info@gmail.com <br />
+              info@gmail.com
             </address>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <h3 class="fw-bold mb-4 text-light">
-                Subscribe
-            </h3>
+            <h3 class="fw-bold mb-4 text-light">Subscribe</h3>
             <p class="text-light mb-3">
-                Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+              Subscribe for our latest & Articles. We Won’t Give You Spam Mails
             </p>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-outline-success" type="button" id="button-addon2"><i class="fa-brands fa-telegram"></i></button>
-              </div>
-              
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email Address"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-success"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="fa-brands fa-telegram"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
