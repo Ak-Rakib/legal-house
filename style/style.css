@@ -11,7 +11,12 @@
     position: absolute;
     margin: 0;
     left: 50%;
-    top: 50%;
+    top: 25%;
+}
+
+.img-resize {
+    width: 30%;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 724px) {
@@ -27,6 +32,6 @@
         position: absolute;
         margin: 0;
         left: 50%;
-        top: 50%;
+        top: 20%;
     }
 }
